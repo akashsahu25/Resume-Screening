@@ -2,8 +2,8 @@
 │ Next.js Web Application     │
 │ React + TypeScript          │
 └──────────────┬──────────────┘
-               │ HTTPS / REST
-               │ SSE or WebSocket
+               │ HTTPS / REST  
+               │ 
 ┌──────────────▼──────────────┐
 │ Spring Boot Backend         │
 │                             │
@@ -20,7 +20,7 @@
         ▼                         ▼
 ┌───────────────┐        ┌─────────────────┐
 │ PostgreSQL    │        │ Redis           │
-│ Main database│        │ Cache/progress  │
+│ Main database │        │ Cache/progress  │
 └───────────────┘        └─────────────────┘
         │
         ▼
@@ -29,6 +29,7 @@
 │ Resume processing     │
 │ job queue             │
 └───────────┬───────────┘
+            |
             ▼
 ┌─────────────────────────────┐
 │ Python AI Worker            │
@@ -46,4 +47,4 @@
 ┌─────────────────────────────┐
 │ S3 / Cloudflare R2          │
 │ Resume and JD files         │
-└─────────────────────────────┘
+└─────────────────────────────┘ 
